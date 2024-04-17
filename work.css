@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: gainsboro;
+}
+.pick{
+    width: 150px;
+ padding-top: 2px;
+ padding-bottom: 2px;
+    
+    background-color: orange;
+    color: black;
+    margin-left: 170px;
+}
+.nav{
+    width: 1263px;
+    border-width: 100px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+   padding-left:40%;
+   position: sticky;
+  
+}
+.detail{
+    border: 1px solid black;
+    padding: 17px;
+    background-color: rgb(223, 129, 62);
+}
+.form-control{
+    margin-left: 250px;
+    padding-left: 20px;
+    width: 50%;
+    background-color:rgb(238, 238, 227);
+    border-radius: 40px;
+   
+}
+.nav-bar{
+    background-color: yellow;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    padding: 16px;
+}
+.nav-bar a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-bar a:hover{
+    background-color: black;
+    border-radius: 10px;  
+    padding: 7px;
+    color: white;
+}
+.super-deal{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 500; 
+}   
+
+button{
+   background-color: black;
+   color: white; 
+   border-radius: 10px;
+   padding: 9px;
+   width: 250px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.fab-deals{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 500; 
+} 
+.fab-deal1{
+
+    margin-left: 100px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.fab-deal1 a{
+    text-decoration: none;
+    color: black;
+}
+.fab-deal1 img{
+    width: 120px;
+    margin-left: 260px;
+    margin-top: -100px;
+    border-radius: 20px;
+}
+.fab-deal2{
+  
+    margin-top: -180px;
+    margin-left: 700px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.fab-deal2 a{
+    text-decoration: none;
+    color: black;
+}
+.fab-deal2 img{
+    width: 120px;
+    margin-left: 320px;
+    margin-top: -140px;
+    border-radius: 20px;
+
+}
+.value-deals{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 500; 
+}
+.value-deal1{
+    margin-left: 100px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.value-deal1 a{
+    text-decoration: none;
+    color: black;
+}
+.value-deal1 a img{
+    width: 100px;
+    margin-left: 220px;
+    border-radius: 20px;
+    margin-top: -100px;
+}
+.value-deal2{
+   
+    margin-top: -180px;
+    margin-left: 700px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.value-deal2 a{
+    text-decoration: none;
+    color: black;
+}
+.value-deal2 a img{
+    width: 100px;
+    margin-left: 220px;
+    border-radius: 20px;
+    margin-top: -100px;
+
+}
+.value-deal3{
+    margin-left: 100px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.value-deal3 a{
+    text-decoration: none;
+    color: black;
+}
+.value-deal3 a img{
+    width: 130px;
+    margin-left: 300px;
+    border-radius: 20px;
+    margin-top: -130px;
+}
+.value-deal4{
+    margin-top: -230px;
+    margin-left: 700px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.value-deal4 a{
+    text-decoration: none;
+    color: black;
+}
+.value-deal4 a img{
+    width: 150px;
+    margin-left: 290px;
+    border-radius: 20px;
+    margin-top: -130px;
+}
+.value-deal5{
+    margin-left: 100px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.value-deal5 a{
+    text-decoration: none;
+    color: black;
+}
+.value-deal5 a img{
+    width: 120px;
+    margin-left: 290px;
+    border-radius: 20px;
+    margin-top: -130px;
+}
+.value-deal6{
+    margin-top: -275px;
+    margin-left: 700px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.value-deal6 a{
+    text-decoration: none;
+    color: black;
+}
+.value-deal6 a img{
+    width: 130px;
+    margin-left: 290px;
+    border-radius: 20px;
+    margin-top: -130px;
+}
+.pizza{
+        text-align: center;
+        color: black;
+        font-size: 25px;
+        font-weight: 500; 
+}
+.pizza1 img{
+    width: 150px;
+    border-radius: 40px;
+
+   
+}
+.pizza1{
+    margin-left: 110px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top:10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.pizza1 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 160px;
+}
+.card{
+ margin-left: 700px;
+ margin-top: -250px;
+ border-radius: 20px;
+ background-color: rgb(238, 238, 227);
+}
+.card1{
+    margin-top: -200px ;
+    margin-left: 140px;
+    border-radius: 20px;
+ background-color: rgb(238, 238, 227);
+}
+.starter{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 500; 
+}
+.starter1{
+    margin-left: 100px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.starter1 a{
+    text-decoration: none;
+    color: black;
+}
+.starter1 a img{
+    width: 90px;
+    border-radius: 20px;
+    margin-left: 230px;
+   margin-top: -100px;
+}
+
+.starter2{
+    margin-top: -230px;
+    margin-left: 650px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.starter2 a{
+    text-decoration: none;
+    color: black;
+}
+.starter2 a img{
+   
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 220px;
+    margin-top: -100px;
+}
+.starter3{
+    margin-left: 100px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.starter3 a{
+    text-decoration: none;
+    color: black;
+}
+.starter3 a img{
+    width: 120px;
+    border-radius: 20px;
+    margin-left: 300px;
+   margin-top: -130px;
+}
+.deserts{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+.deserts1{
+    margin-left: 100px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.deserts1 a{
+    text-decoration: none;
+    color: black;
+}
+.deserts1 a img{
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 280px;
+   margin-top: -130px;
+}
+.deserts2{
+    margin-top: -230px;
+    margin-left: 650px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.deserts2 a{
+    text-decoration: none;
+    color: black;
+}
+.deserts2 a img{
+   
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 220px;
+    margin-top: -100px;
+}
+.drinks{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+.drink1{
+    margin-left: 100px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.drink1 a{
+    text-decoration: none;
+    color: black;
+}
+.drink1 a img{
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 280px;
+   margin-top: -130px;
+}
+.drink2{
+    margin-top: -230px;
+    margin-left: 650px;
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 227);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.drink2 a{
+    text-decoration: none;
+    color: black;
+}
+.drink2 a img{
+   
+    width: 140px;
+    border-radius: 20px;
+    margin-left: 220px;
+    margin-top: -100px;
+}
+.ending{
+    
+    background-color: rgb(238, 238, 227);
+}
+h1{
+    text-align:center;
+}
+.end{   
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.end a{
+    color: white;
+}
